@@ -1,5 +1,8 @@
 @import '@fontsource/fira-mono';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
 	--font-body: "Space Mono", monospace;
 	--font-mono: 'Fira Mono', monospace;
@@ -7,7 +10,7 @@
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
 	--color-theme-1: #0F1A20;
-	--color-theme-2: #F42C04;
+	--color-theme-2: #f42c04;
 	--color-text: #FAF6F6;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -19,7 +22,7 @@
 
 .app {
 	min-width: 100vw;
-	min-height: 100vw;
+	min-height: fit-content;
 	width: auto;
 	height: auto;
 }

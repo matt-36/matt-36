@@ -10,9 +10,6 @@
 		<slot />
 	</main>
 
-	<footer>
-		<p><a href="https://github.com/matt-36">github</a></p>
-	</footer>
 </div>
 
 <style>
